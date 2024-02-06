@@ -5,11 +5,50 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>DrinkInfo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="css/body.css" rel="stylesheet" type="text/css"/>
+        <link href="css/formulario.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">DrinkInfo</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="cacique.html">Cacique</a></li> 
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="cerveza.html">Cerveza</a></li> 
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ginebra.html">Ginebra</a></li> 
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ron.html">Ron</a></li> 
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="tequimezcal.html">Tequila</a></li> 
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="vino.html">Vino</a></li> 
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="contacto.html">Contáctenos</a></li>
+                </ul>
+             </nav>
+        </header>
+        
+        <div><h1>Contáctanos</h1></div>
+        <div><b>Dejános tus comentarios! </b></div>
+        
+        <form action="#">
+
+            <label>Nombre</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" required/>
+
+            <label>Apellido</label>
+            <input type="text" name="apellido" placeholder="Primer Apellido"/>
+
+            <label/>Email</label>
+            <input type="email" name="email" placeholder="Correo electrónico" required />
+
+            <label>Asunto</label>
+            <input type ="text" name="asunto" placeholder="Titular de la consulta"/>
+
+            <label>Mensaje</label>
+            <textarea name="mensaje" placeholder="Describe el asunto" maxlength="300"></textarea>
+
+            <input type="submit" value="Enviar datos"/>
+</form>
     </body>
 </html>

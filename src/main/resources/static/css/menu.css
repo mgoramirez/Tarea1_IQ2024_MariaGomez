@@ -1,0 +1,63 @@
+body {
+    background-color: #faf7f0;
+    font-family: Palatino ;
+    font-size: 20px;
+    padding: 90px 20px 0;
+}
+
+.header{
+    background-color: chocolate;
+    height: 12%;
+    position: fixed; /*No se mueva aunque haya scroll*/
+    top: 0;
+    left:0;
+    width:100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: #c6c3b3;
+    text-decoration: none;
+}
+
+.logo{
+    font-family:"Lucida Handwriting" ;
+    font-size: 32px;
+    font-weight:bold;
+    padding: 0px 40px;
+    line-height: 110px;
+}
+
+.logo:hover{
+    color: #f8dec3;
+    transition: 0.7s;
+}
+
+.nav-menu{
+    display: flex; /* Elementos uno al lado del otro*/
+    margin-right: 40px;
+    list-style: none; /*quita decoracion a elementos de ul*/
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0px 10px;
+    line-height: 80px;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius:6px;
+}
+
+.nav-menu-link:hover{ /*cambia color sobre el ancla*/
+    background-color: #f8dec3;
+    transition: 0.7s;
+}
+
